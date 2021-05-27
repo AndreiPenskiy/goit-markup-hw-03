@@ -1,0 +1,220 @@
+:root {
+  --pretty-color: #2196f3;
+  --backblack-color: #2f303a;
+  --backwhite-color: #e5e5e5;
+  --backgrey-color: #f5f4fa;
+  --title-color: #212121;
+  --accenttext-color: #757575;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --main-font: "Roboto", sans-serif;
+  --accent-font: "Raleway", sans-serif;
+}
+
+.body {
+  text-decoration: none;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  color: var(--accenttext-color);
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body ul {
+  list-style: none;
+}
+
+.logo > .web-logo {
+  color: var(--pretty-color);
+}
+
+.logo {
+  color: var(--title-color);
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.site-nav-link,
+.contact-link {
+  text-decoration: none;
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--pretty-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--pretty-color);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--pretty-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--pretty-color);
+}
+
+.button {
+  cursor: pointer;
+}
+
+.site-nav-link.current {
+  color: var(--pretty-color);
+}
+
+.site-nav {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.02em;
+}
+
+.contact-link {
+  color: var(--accenttext-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.02em;
+}
+
+/*задний фон что бы был виден текст, знаю что по ТЗ ставить не надо*/
+.hero {
+  background-color: var(--backblack-color);
+}
+
+.title-hero {
+  color: white;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button.primary {
+  color: white;
+  background-color: var(--pretty-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.features-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.about-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-member {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  color: #fff;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* только что бы был виден белый текст */
+.footer {
+  background-color: var(--backblack-color);
+}
+
+.footer-link {
+  color: var(--footer-contacts-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*Этот кусок потом скрыть с сайта*/
+.our-projects {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* */
+
+.button.secondary {
+  color: var(--title-color);
+  background-color: var(--backgrey-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.projects-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
