@@ -23,7 +23,6 @@
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  border: solid 1px red;
 }
 
 .body {
@@ -133,7 +132,7 @@ p {
 .container.nav-list {
   display: flex;
   align-items: center;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 /*ГЕРОЙ*/
