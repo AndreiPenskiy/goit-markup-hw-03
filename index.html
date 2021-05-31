@@ -14,27 +14,29 @@
 </head>
 
 <body class="body">
-    <header>
-        <nav class="container nav-list">
+    <header class="header">
+        <div class="container header">
             <a href="" class="logo">
                 <span class="web-logo">Web</span>Studio
             </a>
-
-            <ul class="site-nav">
-                <li class="site-nav-item"> <a href="" class="site-nav-link link current"> Студия </a> </li>
-                <li class="site-nav-item"> <a href="./portfolio.html" class="site-nav-link link">Портфолио</a> </li>
-                <li class="site-nav-item"> <a href="" class="site-nav-link link"> Контакты</a> </li>
+            <nav class="nav-list">    
+                <ul class="site-nav">
+                    <li class="site-nav-item"> <a href="./index.html" class="site-nav-link link current"> Студия </a> </li>
+                    <li class="site-nav-item"> <a href="./portfolio.html" class="site-nav-link link">Портфолио</a>
+                    </li>
+                    <li class="site-nav-item"> <a href="" class="site-nav-link link"> Контакты</a> </li>
+                </ul>
+            </nav>
+            <ul class="contact">
+                <li class="contact-item"><a href="mailto:info@devstudio.com" class="contact-link link">
+                        info@devstudio.com</a></li>
+                <li class="contact-item"><a href="tel:+380961111111" class="contact-link link">+380961111111</a></li>
             </ul>
-        
-        <ul class="contact">
-            <li class="contact-item"><a href="mailto:info@devstudio.com" class="contact-link link"> info@devstudio.com</a></li>
-            <li class="contact-item"><a href="tel:+380961111111" class="contact-link link">+380961111111</a></li>
-        </ul>
-        </nav>
+        </div>
     </header>
 
     <main>
-            <section class="hero">
+            <section class="section hero">
                 <div class="container">
                 <h1 class="title-hero">эффективные решения <br> для вашего бизнеса</h1>
                 <button type="button" class="button primary"> Заказать услугу </button>
@@ -43,7 +45,7 @@
 
 
         <!--Преимущества-->
-        <section class="features">
+        <section class="section features">
             <div class="container">
             <!---<h2> Преимущества </h2>--->
             <ul class="features-list">
@@ -67,7 +69,7 @@
         </div>
         </section>
 
-        <section class="about">
+        <section class="section about">
             <div class="container">
             <h2 class="about-title">Чем мы занимаемся</h2>
             <ul class="about-list">
@@ -78,25 +80,33 @@
             </div>
         </section>
 
-        <section class="team">
+        <section class="section team">
             <div class="container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list">
                 <li class="team-worker"> <img src="./images/index/1.jpg" width="270" alt="Игорь Демьяненко">
+                    <div class="member-style">
                     <h3 class="team-member">Игорь Демьяненко</h3>
                     <p class="team-position">Product Designer</p>
+                    </div>
                 </li>
                 <li class="team-worker"> <img src="./images/index/2.jpg" width="270" alt="Ольга Репина">
+                    <div class="member-style">
                     <h3 class="team-member">Ольга Репина</h3>
                     <p class="team-position">Frontend Developer</p>
+                    </div>
                 </li>
                 <li class="team-worker"> <img src="./images/index/3.jpg" width="270" alt="Николай Тарасов">
+                    <div class="member-style">
                     <h3 class="team-member">Николай Тарасов</h3>
                     <p class="team-position">Marketing</p>
+                    </div>
                 </li>
                 <li class="team-worker"> <img src="./images/index/4.jpg" width="270" alt="Михаил Ермаков">
+                    <div class="member-style">
                     <h3 class="team-member">Михаил Ермаков</h3>
                     <p class="team-position">UI Designer</p>
+                    </div>
                 </li>
             </ul>
             </div>
@@ -104,9 +114,9 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-        <a href="" class="logo foot">
-            <span class="web-logo">Web</span>Studio
+        <div class="container foot">
+        <a href="" class="foot-logo">
+            <span class="foot-web-logo">Web</span>Studio
         </a>
         <address>
             <ul class="address-list">
