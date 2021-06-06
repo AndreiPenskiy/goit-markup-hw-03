@@ -74,6 +74,7 @@ p {
 .site-nav-link,
 .contact-link {
   text-decoration: none;
+  color: #212121;
 }
 
 .site-nav-link:hover,
@@ -102,7 +103,6 @@ p {
 
 .site-nav {
   display: flex;
-  color: var(--title-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.43;
@@ -129,13 +129,10 @@ p {
   margin-left: 50px;
 }
 
-.container.header {
+.container.flex-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.header {
   height: 80px;
   border-bottom: 1px solid #ececec;
 }
@@ -313,17 +310,14 @@ p {
   letter-spacing: 0.03em;
 }
 
-.footer {
+.footer-list {
   background-color: var(--backblack-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address-item:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.container.foot {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 /*ПОРТФОЛИО*/
@@ -392,7 +386,7 @@ p {
 }
 
 .portfolio-list {
-  max-width: 100%;
+  flex-basis: calc(100% / 3 -30px);
   margin-right: 30px;
   margin-top: 30px;
   background-color: var(--white-color);
